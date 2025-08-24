@@ -1,0 +1,50 @@
+body{
+            background-color: rgb(19, 19, 19);
+            color: azure;
+            margin-left: 10%;
+            margin-right: 10%;
+            padding-top:120px;
+        }
+        h1{
+            font-size:45px;
+            text-align: center;
+            margin:0;
+            padding:20px;
+            position: fixed;
+            background-color: rgb(19, 19, 19);
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .intro h2{
+            margin:0;
+        }
+        .grid{
+            display:grid;
+            grid-template-columns: 3fr 0.5fr;
+            margin-top:20px;
+        }
+        .intro{
+            margin-right: 100px;
+        }
+        button{
+            inline-size: 32.8%;
+            color: azure;
+            background-color: rgb(55, 55, 55);
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: rgb(84, 67, 125);
+        }
+        img{
+            margin: auto;
+            display: block;
+        }
+        img:hover {
+            cursor: url('star.png'), auto;
+        }
